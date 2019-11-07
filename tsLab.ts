@@ -120,5 +120,5 @@ function calcInventory(inventory: InventoryItem[]): void {
   for (let i = 0; i < inventory.length; i++) {
     totalvalue += inventory[i].price * inventory[i].quantity;
   }
-  console.log(inventory);
+  console.log(calcInventory(inventory));
 }
